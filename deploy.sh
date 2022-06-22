@@ -16,5 +16,5 @@ git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
-git push -f git@github.com:jordan-ttc-design/block-test.git main:gh-pages
+git push -f git@github.com:jordan-ttc-design/block-t.git main:gh-pages
 cd -
