@@ -13,7 +13,6 @@ export default {
     setInterval(() => {
       perActive.value = active.value;
       active.value = (active.value + 1 + imgTotal.value) % imgTotal.value;
-      console.log(active.value);
     }, (animationDuration / 2) * 1000);
     return { active, perActive };
   },
@@ -34,6 +33,14 @@ export default {
         data-aos-duration="500"
       />
     </div>
+    <img
+      class="headerTopRing z-30"
+      src="https://i.imgur.com/Aj6nN5h.png"
+      alt="主視覺環"
+      data-aos="fade-up-right"
+      data-aos-delay="600"
+      data-aos-duration="500"
+    />
     <div
       class="headerTopImg z-10 bg-primary-light"
       data-aos="fade-up-right"
@@ -197,6 +204,21 @@ export default {
   }
   100% {
     opacity: 0;
+  }
+}
+.headerTopRing {
+  position: absolute;
+  top: 86px;
+  left: calc(50% - 90px);
+  width: 180px;
+
+  @media (max-width: 1023.98px) {
+    width: 78px;
+    left: 30%;
+  }
+  @media (max-width: 767.98px) {
+    top: 150px;
+    left: calc(50% - 90px);
   }
 }
 </style>
