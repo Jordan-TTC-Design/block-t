@@ -65,7 +65,7 @@ export default {
       class="col-span-12 flex flex-col gap-y-2 md:flex-row md:gap-5 lg:col-span-4 lg:flex-col lg:gap-y-5"
     >
       <div
-        class="collectItem collectItem--3"
+        class="collectItem collectItem--3 md:flex-auto"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -81,7 +81,7 @@ export default {
           face balm
         </button>
       </div>
-      <div class="grid grid-cols-4">
+      <div class="grid grid-cols-4 md:flex-auto">
         <div
           class="col-span-4 lg:col-span-3"
           data-aos="fade-up"

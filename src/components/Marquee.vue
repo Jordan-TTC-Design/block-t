@@ -24,7 +24,7 @@ export default {
       data-aos-duration="300"
     />
     <img
-      class="marquee__ring--2"
+      class="marquee__ring--2 z-10"
       src="https://i.imgur.com/0Dhzqb7.png"
       alt="ring2"
       data-aos="fade-up"
@@ -32,7 +32,7 @@ export default {
       data-aos-duration="500"
     />
     <img
-      class="marquee__ring--3"
+      class="marquee__ring--3 z-10"
       src="https://i.imgur.com/peuq5Xh.png"
       alt="ring3"
       data-aos="fade-up"
@@ -40,7 +40,7 @@ export default {
       data-aos-duration="400"
     />
     <img
-      class="marquee__ring--4 hidden lg:block"
+      class="marquee__ring--4 z-10 hidden lg:block"
       src="https://i.imgur.com/29kIOL3.png"
       alt="ring4"
       data-aos="fade-up"
@@ -48,7 +48,7 @@ export default {
       data-aos-duration="800"
     />
     <img
-      class="marquee__ring--5"
+      class="marquee__ring--5 z-10"
       src="https://i.imgur.com/WbTRDVm.png"
       alt="ring4"
       data-aos="fade-up"
@@ -117,7 +117,6 @@ export default {
   width: 250px;
   bottom: 10%;
   left: 24%;
-  z-index: 100;
   @media (max-width: 767.98px) {
     width: 180px;
     bottom: 15%;
@@ -132,7 +131,6 @@ export default {
   width: 126px;
   bottom: 42%;
   right: 30%;
-  z-index: 100;
   @media (max-width: 767.98px) {
     width: 100px;
   }
@@ -146,14 +144,12 @@ export default {
   width: 110px;
   bottom: 16%;
   right: 8%;
-  z-index: 100;
 }
 .marquee__ring--5 {
   position: absolute;
   width: 90px;
   top: 19%;
   right: 2%;
-  z-index: 100;
   @media (max-width: 767.98px) {
     top: 24%;
   }
