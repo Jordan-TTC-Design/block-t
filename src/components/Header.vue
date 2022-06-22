@@ -8,11 +8,9 @@ export default {
       if (newVal === true) {
         const windowAll = document.querySelector("body");
         windowAll.className = "overflow-hidden";
-        console.dir(windowAll);
       } else {
         const windowAll = document.querySelector("body");
         windowAll.className = "";
-        console.dir(windowAll);
       }
     });
     return { menuShow };
